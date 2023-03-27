@@ -38,11 +38,13 @@ h3{
     background-color: aliceblue;
 }
 .caja{
-    width: 450px;
+    width: 600px;
+    height: 450px;
     padding: 10px;
     border: 10px solid black;
     margin: 0 auto;
     background-color: aliceblue;
+
 }
 .cajaNom{
     font-size: 20px;
@@ -62,11 +64,15 @@ h3{
     font-size: 20px;
     text-align: center;
 }
+.formMen{
+    text-align: center;
+    width: 450px;
+    
+}
 .cajaBtn{
     font-size: 20px;
     text-align: center;
+    
 }
-.formMen{
-    text-align: center;
-}
+
 
