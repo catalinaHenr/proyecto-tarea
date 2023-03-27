@@ -1,0 +1,29 @@
+miCallback([{
+    "especie":"Perro",
+    "raza":"Poodle",
+    "corte":"El continental",
+    "precio":"$20.000",
+    "img":"img/corteContinental.jpg"
+},
+{
+    "especie":"Perro",
+    "raza":"West Highland",
+    "corte":"Westy",
+    "precio":"$17.000",
+    "img":"img/corteWesty.jpg"
+},
+{
+    "especie":"Perro",
+    "raza":"Yorshire",
+    "corte":"Corte cachorro",
+    "precio":"$15.000",
+    "img":"img/corteCachorro.jpg"
+},
+{
+    "especie":"Perro",
+    "raza":"Pequines",
+    "corte":"Corte pequines",
+    "precio":"$17.000",
+    "img":"img/cortePequines.jpg"
+}
+])
