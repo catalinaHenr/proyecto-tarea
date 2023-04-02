@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-<form action="confirmacion.php">
-    <input type="text" name="Nombre">
-    <input type="submit" name="boton" value="Enviar">
-</form>
-</body>
-</html>
+<?php
+    $nombre = $_POST["name"];
+    $email = $_POST["emailAddress"];
+    $mensaje = $_POST["message"];
+
+    $mensaje = "Este mensaje fue enviado por " . $nombre .",\r\n";
+    $mensaje = "Su email es: " . $email .",\r\n";
+    $mensaje = "Mensaje: " . $_POST["message"] .",\r\n";
+    $mensaje = "Enviado el " . date('d/m/Y', time());
+
+    $para = "catalinahenriquez130@gmail.com";
+    $asunto = "Proyecto Mascotas";
+
+    mail($para,$asunto, utf8_decode($mensaje),$header);
+
+    header("location:enviado.html");
+?>

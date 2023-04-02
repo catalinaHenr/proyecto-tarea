@@ -10,27 +10,29 @@
   <body class="fonCon">
     <h2>Contacto</h2>
     <h3>Agregue sus datos para que nos contactemos con usted</h3>
-    <div class="caja">
-        <form id="contactForm">
-            <div class="cajaNom">
-                <label class="labelNom" for="name">Nombre</label>
-                <input class="formNom" id="name" type="text" placeholder="Ingrese su nombre"/><br><br>
-            </div>
-            <div class="cajaEma">
-                <label class="form-label" for="emailAddress">Correo</label>
-                <input class="formEma" id="emailAddress" type="email" placeholder="Ingrese su correo"/><br><br>
-            </div>
-            <div class="cajaMen">
-                <label class="form-label" for="message">Mensaje</label><br>
-                <textarea class="formMen" id="message" type="text" placeholder="Agrege su consulta" style="height: 10rem;"></textarea>
+    <form action="contacto.php" method="POST" class="speaker-form">
 
-            </div>
-            <div class="cajaBtn">
-                <button class="btnEn" type="submit">Enviar</button>
-            </div>
-        </form>
-    </div>
+      <div class="caja">
+          <form id="contactForm">
+              <div class="cajaNom">
+                  <label class="labelNom" for="name">Nombre</label>
+                  <input class="formNom"id ="name" name="name" type="text" placeholder="Ingrese su nombre"/><br><br>
+              </div>
+              <div class="cajaEma">
+                  <label class="form-label" for="emailAddress">Correo</label>
+                  <input class="formEma" id="email" name="emailAddress" type="email" placeholder="Ingrese su correo"/><br><br>
+              </div>
+              <div class="cajaMen">
+                  <label class="form-label" for="message">Mensaje</label><br>
+                  <textarea class="formMen" id="message" name="message" type="text" placeholder="Agrege su consulta" style="height: 10rem;"></textarea>
 
+              </div>
+              <div class="cajaBtn">
+                  <button class="btnEn" type="submit">Enviar</button>
+              </div>
+          </form>
+      </div>
+    </form>
     <script src="css/estilos.css"></script>
   </body>
 </html>
