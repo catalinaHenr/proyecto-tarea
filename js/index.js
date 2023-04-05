@@ -16,10 +16,12 @@ var miCallback = datos =>{
 
     const $titulo = document.getElementById("titulo");
     const $results = document.getElementById("results");
+
     console.log($titulo);
     console.log($results);
+
     $titulo.style.backgroundColor = "#F1F45D";
     $titulo.style.borderLeft = "50px";
     $titulo.style.paddingLeft = "1rem";
-
-}
+    $titulo.style.textAlign="center";
+}   
