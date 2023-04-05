@@ -98,5 +98,12 @@ h3{
     display: flex;
     justify-content: center;
 }
-
+.mensaCon{
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
 
