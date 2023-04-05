@@ -7,15 +7,16 @@
     -o-background-size: cover;
     background-size: cover;
 }
+.menu{
+    padding-left: 5%;
+}
 .cajaMenu{
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 400px;
     color: black;
     background-color:#F1F45D;
     border-style: solid;
     border-color: black;
-    text-align: left;
-    word-spacing: 0.4em;
 }
 ul { 
     /*  display: flex;
