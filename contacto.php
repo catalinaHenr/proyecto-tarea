@@ -11,7 +11,7 @@
     $para = "catalinahenriquez130@gmail.com";
     $asunto = "Proyecto Mascotas";
 
-    mail($para,$asunto, utf8_decode($mensaje),$header);
+    mail($para,$asunto, ($mensaje),$header);
 
     header("location:enviado.html");
 ?>

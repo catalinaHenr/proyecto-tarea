@@ -1,29 +1,31 @@
-/*carousel-inner{
-    height: 50vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}*/
 .carousel-inner{
-    
+    height: 70%;
+    border-style: solid;
+    border-color: black;
+}
+.menu{
+    padding-left: 5%;
+    margin-bottom: 0;
+}
+.galeria{
+    padding-left: 15%;
+    margin-bottom: 0;
+}
+.contacto{
+    padding-left: 20%;
 }
 .cajaMenu{
     font-size: 25px;
-    font-weight: 400;
     color: black;
     background-color:#F1F45D;
     border-style: solid;
     border-color: black;
-    text-align:left;
-    word-spacing: 0.4em;
-    
+    width:100%;
+    height:100px;
 }
 ul { 
-    /*  display: flex;
-   justify-content: center; */
+    display: flex;
+    justify-content: center; 
     list-style: none;
 }
 .fonCon{
@@ -81,7 +83,10 @@ h3{
 
 .results{
  font-size: 20px;
- align-items: center;
+ width: 600px;
+ height: 450px;
+ padding: 10px;
+ margin: 0 auto;
 }
 .card-body{
     margin: 0 auto;
@@ -92,5 +97,13 @@ h3{
 .btn btn-primary{
     display: flex;
     justify-content: center;
+}
+.mensaCon{
+    width: 600px;
+    height: 450px;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 0 auto;
+    background-color: aliceblue;
 }
 
